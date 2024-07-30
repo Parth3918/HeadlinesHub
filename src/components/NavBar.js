@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import {
   Link
 } from "react-router-dom";
-
+import logo from './logo1.png'
 // export class NavBar extends Component {
 //   static propTypes = {}
 const NavBar =()=>{
@@ -11,7 +11,7 @@ const NavBar =()=>{
       <div>
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark shadow-lg">
   <div className="container-fluid">
-    <Link className="navbar-brand" to="#">Navbar</Link>
+    <Link className="navbar-brand" to="#"><img style={{height: '30px', width: '100px'}} src={logo} alt="Logo" /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

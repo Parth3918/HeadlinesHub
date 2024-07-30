@@ -65,7 +65,7 @@ const News =(props)=> {
     return (
       <div className='container my-3 '>
         
-        <h2 className='text-white text-center ' style={{marginTop : '70px'}}>SpaceNews - Top {capitalfl(props.category)} Headlines</h2>
+        <h2 className='text-white text-center ' style={{marginTop : '70px'}}>Headlines Hub - Top {capitalfl(props.category)} Headlines</h2>
         {loading && <Spinner/>}        
 
         <InfiniteScroll
